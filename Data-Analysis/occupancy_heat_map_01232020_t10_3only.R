@@ -19,12 +19,12 @@ library(grid)
 #eDNA Data Table for B.sandiegonensis
 edna_san <- read.csv("/Users/zackgold/Documents/UCLA_phd/Projects/California/Vernal_pool/sequencing/Vernal_pool_eec_2019/analysis_2020/to_ryan/vpdata_wOccupancy_edna_sum_taxonomy.san2020-01-23.csv")
 #Dip net Data Table for B.sandiegonensis
-dip_san <- read.csv("/Users/zackgold/Documents/UCLA_phd/Projects/California/Vernal_pool/sequencing/Vernal_pool_eec_2019/analysis_2020/to_ryan/vpdata_wOccupancy_sweep_by_sample_sum_taxonomy.san2020-01-17.csv")
+dip_san <- read.csv("/Users/zackgold/Documents/UCLA_phd/Projects/California/Vernal_pool/sequencing/Vernal_pool_eec_2019/analysis_2020/to_ryan/vpdata_wOccupancy_dip_by_sample_sum_taxonomy.san2020-01-17.csv")
 
 #eDNA Data Table for B. lindahli
 edna_lin <- read.csv("/Users/zackgold/Documents/UCLA_phd/Projects/California/Vernal_pool/sequencing/Vernal_pool_eec_2019/analysis_2020/to_ryan/vpdata_wOccupancy_edna_sum_taxonomy.lin2020-01-23.csv")
 #Dip Net Data Table for B. lindahli
-dip_lin <- read.csv("/Users/zackgold/Documents/UCLA_phd/Projects/California/Vernal_pool/sequencing/Vernal_pool_eec_2019/analysis_2020/to_ryan/vpdata_wOccupancy_sweep_by_sample_sum_taxonomy.lin2020-01-17.csv")
+dip_lin <- read.csv("/Users/zackgold/Documents/UCLA_phd/Projects/California/Vernal_pool/sequencing/Vernal_pool_eec_2019/analysis_2020/to_ryan/vpdata_wOccupancy_dip_by_sample_sum_taxonomy.lin2020-01-17.csv")
 
 #Convert to Factors
 edna_lin$Site <- factor(edna_lin$Site, levels(edna_lin$Site)[c(1,3:10,2)])
