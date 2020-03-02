@@ -22,19 +22,19 @@ a) Transformed eDNA Data - 16S_decontaminated_table_only3_t-10.csv
 b) Dip net data - dip_net_presence_absence.csv   
 
 ### Code to run SOM includes:
-\n a) SOM for eDNA data - vp_Occupancy_Stan_edna_01232020.R   
-\n b) SOM for Dip net data - dip_net_occupancy_by_sample.R   
+a) SOM for eDNA data - vp_Occupancy_Stan_edna_01232020.R   
+b) SOM for Dip net data - dip_net_occupancy_by_sample.R   
 
 ## Data Analysis
 The heat map plot scripts were conducted in R to plot the calculated occupancy rates for B. sandiegonensis and B. lindahli.    
 
 ### Input data includes:
-\n a) B. lindahli dip net data - vpdata_wOccupancy_dip_by_sample_sum_taxonomy.lin2020-01-17.csv    
-\n b) B. sandiegonensis dip net data - vpdata_wOccupancy_dip_by_sample_sum_taxonomy.san2020-01-17.csv    
-\n c) B. lindahli eDNA data - vpdata_wOccupancy_edna_sum_taxonomy.lin2020-01-23.csv  
-\n d) B. sandiegonensis eDNA data - vpdata_wOccupancy_edna_sum_taxonomy.san2020-01-23.csv  
+a) B. lindahli dip net data - vpdata_wOccupancy_dip_by_sample_sum_taxonomy.lin2020-01-17.csv    
+b) B. sandiegonensis dip net data - vpdata_wOccupancy_dip_by_sample_sum_taxonomy.san2020-01-17.csv    
+c) B. lindahli eDNA data - vpdata_wOccupancy_edna_sum_taxonomy.lin2020-01-23.csv  
+d) B. sandiegonensis eDNA data - vpdata_wOccupancy_edna_sum_taxonomy.san2020-01-23.csv  
 
 ### Code to run data analysis:
-\n a) Plotting Heat Maps of Occupancy Rates - occupancy_heat_map_01232020_t10_3only.R  
-\n b) Multiplot function - multiplot.r (http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_(ggplot2)/)  
+a) Plotting Heat Maps of Occupancy Rates - occupancy_heat_map_01232020_t10_3only.R  
+b) Multiplot function - multiplot.r (http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_(ggplot2)/)  
 
