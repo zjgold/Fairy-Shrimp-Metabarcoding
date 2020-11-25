@@ -1,7 +1,8 @@
 # Fairy-Shrimp-Metabarcoding
-Code to conduct data analysis for eDNA Metabarcoding bioassessment of endangered fairy shrimp (Branchinecta spp.)
+Code to conduct data analysis for eDNA Metabarcoding bioassessment of endangered fairy shrimp (*Branchinecta* spp.)
 
 Manuscript available [here](https://link.springer.com/article/10.1007/s12686-020-01161-9)
+
 Manuscript will be made available on UC Commons. However, feel free to email myself or any other coauthor for a copy of the manuscript.
 
 ## Decontamination
@@ -18,7 +19,7 @@ vernal_pool_decontamination_01072020.Rmd
 Thanks for [Ramon Gallego](https://github.com/ramongallego?tab=repositories) and [Ryan Kelly](https://github.com/invertdna) for help implementing the code.  
 
 ## Site Occupancy Modeling
-The site occupancy modeling scripts were conducted in R to process the decontaminated Branchinecta ASV tables.    
+The site occupancy modeling (SOM) scripts were conducted in R to process the decontaminated *Branchinecta* ASV tables.    
 
 ### Input data includes:
 a) Transformed eDNA Data - 16S_decontaminated_table_only3_t-10.csv   
@@ -29,14 +30,14 @@ a) SOM for eDNA data - vp_Occupancy_Stan_edna_01232020.R
 b) SOM for Dip net data - dip_net_occupancy_by_sample.R   
 
 ## Data Analysis
-The heat map plot scripts were conducted in R to plot the calculated occupancy rates for B. sandiegonensis and B. lindahli.    
+The heat map plot scripts were conducted in R to plot the calculated occupancy rates for *B. sandiegonensis* and *B. lindahli*.    
 
 ### Input data includes:
-a) B. lindahli dip net data - vpdata_wOccupancy_dip_by_sample_sum_taxonomy.lin2020-01-17.csv    
-b) B. sandiegonensis dip net data - vpdata_wOccupancy_dip_by_sample_sum_taxonomy.san2020-01-17.csv    
-c) B. lindahli eDNA data - vpdata_wOccupancy_edna_sum_taxonomy.lin2020-01-23.csv  
-d) B. sandiegonensis eDNA data - vpdata_wOccupancy_edna_sum_taxonomy.san2020-01-23.csv  
+a) *B. lindahli* dip net data - vpdata_wOccupancy_dip_by_sample_sum_taxonomy.lin2020-01-17.csv    
+b) *B. sandiegonensis* dip net data - vpdata_wOccupancy_dip_by_sample_sum_taxonomy.san2020-01-17.csv    
+c) *B. lindahli* eDNA data - vpdata_wOccupancy_edna_sum_taxonomy.lin2020-01-23.csv  
+d) *B. sandiegonensis* eDNA data - vpdata_wOccupancy_edna_sum_taxonomy.san2020-01-23.csv  
 
 ### Code to run data analysis:
 a) Plotting Heat Maps of Occupancy Rates - occupancy_heat_map_01232020_t10_3only.R  
-b) Multiplot function - [multiplot.r](http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_(ggplot2)  
+b) Multiplot function - [multiplot.r](http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_(ggplot2)/)
