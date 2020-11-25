@@ -1,5 +1,8 @@
 # Fairy-Shrimp-Metabarcoding
-Code to conduct data analysis for eDNA Metabarcoding bioassessment of endangered fairy shrimp (Branchinecta spp.)  
+Code to conduct data analysis for eDNA Metabarcoding bioassessment of endangered fairy shrimp (Branchinecta spp.)
+
+Manuscript available [here](https://link.springer.com/article/10.1007/s12686-020-01161-9)
+Manuscript will be made available on UC Commons. However, feel free to email myself or any other coauthor for a copy of the manuscript.
 
 ## Decontamination
 The decontamination scripts were conducted in R to process the Anacapa Toolkit generated ASV tables.   
@@ -10,9 +13,9 @@ b) Hash File with taxonomic paths for each ASV - vp_hashes_01072019.txt
 c) Two raw output ASV tables from Anacapa Toolkit from each sequencing run - vp1_Metazoa_16S_ASV_raw_taxonomy_60_edited.txt and vp2_16S_ASV_raw_tax_60_edited.txt    
 
 ### Code to run decontamination:
-vernal_pool_decontamination_01072020.Rmd 
+vernal_pool_decontamination_01072020.Rmd
 
-Thanks for Ramon Gallego https://github.com/ramongallego?tab=repositories and Ryan Kelly https://github.com/invertdna for help implementing the code.  
+Thanks for [Ramon Gallego](https://github.com/ramongallego?tab=repositories) and [Ryan Kelly](https://github.com/invertdna) for help implementing the code.  
 
 ## Site Occupancy Modeling
 The site occupancy modeling scripts were conducted in R to process the decontaminated Branchinecta ASV tables.    
@@ -36,5 +39,4 @@ d) B. sandiegonensis eDNA data - vpdata_wOccupancy_edna_sum_taxonomy.san2020-01-
 
 ### Code to run data analysis:
 a) Plotting Heat Maps of Occupancy Rates - occupancy_heat_map_01232020_t10_3only.R  
-b) Multiplot function - multiplot.r (http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_(ggplot2)/)  
-
+b) Multiplot function - [multiplot.r](http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_(ggplot2)  
